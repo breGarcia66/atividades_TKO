@@ -1,0 +1,44 @@
+{
+    "patches": [
+        {
+            "label": "2025-09-14_21-43-53",
+            "content": "@@ -19,137 +19,17 @@\n ));%0A\n-contador = 0;%0Aretorno = '%5B';%0Awhile contador %3C= 10:%0A  casa = str(contador);%0A  retorno += ' ' + casa;%0A  contador += 1;%0A%0Aprint(retorno\n+print(pedra\n );\n",
+            "lines": "2"
+        },
+        {
+            "label": "2025-09-14_21-51-30",
+            "content": "@@ -70,34 +70,8 @@\n 10:%0A\n-  if cantador != pedra:%0A  \n   ca\n@@ -92,18 +92,16 @@\n dor);%0A  \n- \n- \n retorno \n@@ -115,17 +115,16 @@\n + casa;%0A\n-%0A\n   contad\n@@ -133,17 +133,16 @@\n  += 1;%0A%0A\n-%0A\n print(re\n",
+            "lines": "9"
+        },
+        {
+            "label": "2025-09-14_21-53-28",
+            "content": "@@ -72,17 +72,17 @@\n :%0A  if c\n-o\n+a\n ntador !\n",
+            "lines": "12"
+        },
+        {
+            "label": "2025-09-14_21-53-38",
+            "content": "@@ -146,58 +146,8 @@\n asa;\n-%0A  %0A  elif contador == 10:%0A    retorno += 'ceu %5D';\n %0A%0A  \n",
+            "lines": "12"
+        },
+        {
+            "label": "2025-09-14_21-54-40",
+            "content": "@@ -185,17 +185,16 @@\n rno += '\n- \n ceu %5D';%0A\n",
+            "lines": "15"
+        },
+        {
+            "label": "2025-09-14_21-54-52",
+            "content": "@@ -66,9 +66,10 @@\n  %3C= \n-9\n+10\n :%0A  \n@@ -143,18 +143,25 @@\n + casa;%0A\n-%0A\n  \n+ %0A  elif\n  contado\n@@ -166,31 +166,17 @@\n dor \n-+= 1;%0A%0Aif pedra !\n+=\n = 10:%0A\n+  \n   re\n@@ -195,16 +195,35 @@\n eu %5D';%0A%0A\n+  contador += 1;%0A%0A%0A\n print(re\n",
+            "lines": "15"
+        },
+        {
+            "label": "2025-09-14_21-56-05",
+            "content": "@@ -203,33 +203,8 @@\n  %5D';\n-%0Aelse:%0A  retorno += ' %5D';\n %0A%0Apr\n",
+            "lines": "14"
+        },
+        {
+            "label": "2025-09-14_21-56-36",
+            "content": "pedra = int(input());\ncontador = 0;\nretorno = '[';\nwhile contador <= 9:\n  if contador != pedra:\n    casa = str(contador);\n    retorno += ' ' + casa;\n\n  contador += 1;\n\nif pedra != 10:\n  retorno += ' ceu ]';\nelse:\n  retorno += ' ]';\n\nprint(retorno);",
+            "lines": "16"
+        }
+    ]
+}

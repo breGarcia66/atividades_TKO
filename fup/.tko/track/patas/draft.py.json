@@ -1,0 +1,39 @@
+{
+    "patches": [
+        {
+            "label": "2025-09-14_22-08-17",
+            "content": "@@ -72,114 +72,5 @@\n ));%0A\n-listaAnimais = %5B%5D;%0Acontador = 0%0A%0Awhile contador %3C totAnimais:%0A  listaAnimais.append(input());%0A  contador += 1;\n+%0A\n",
+            "lines": "4"
+        },
+        {
+            "label": "2025-09-14_22-21-22",
+            "content": "@@ -166,31 +166,8 @@\n ));%0A\n-  print(listaAnimais);%0A\n   co\n",
+            "lines": "9"
+        },
+        {
+            "label": "2025-09-14_22-21-41",
+            "content": "@@ -103,29 +103,9 @@\n  = 0\n-;%0AcontadorPatas = 0;\n %0A\n+\n %0Awhi\n@@ -168,148 +168,41 @@\n ;%0A  \n-contador += 1;%0A%0Afor i in listaAnimais:%0A  if i == 'c' or i == 'v':%0A    contadorPatas += 4;%0A  else:%0A    contadorPatas += 2;%0A%0Aprint(contadorPatas)\n+print(listaAnimais);%0A  contador += 1\n ;\n",
+            "lines": "10"
+        },
+        {
+            "label": "2025-09-14_22-42-59",
+            "content": "@@ -332,410 +332,4 @@\n as);\n-%0A%0Adef conferirDiferen%C3%A7a (valorA, valorB):%0A  if valorA %3E valorB:%0A    return valorA - valorB;%0A  elif valorB %3E valorA:%0A    return valorB - valorA;%0A  else :%0A    return 0%0A  %0AdifChico = conferirDiferen%C3%A7a(chico, contadorPatas);%0AdifCebolinha = conferirDiferen%C3%A7a(cebolinha, contadorPatas);%0A%0Aif (difChico %3C difCebolinha):%0A  print('Chico');%0Aelif difCebolinha %3C difChico:%0A  print('Cbolinha');%0Aelse :%0A  print('empate');\n",
+            "lines": "18"
+        },
+        {
+            "label": "2025-09-14_22-57-13",
+            "content": "@@ -698,17 +698,16 @@\n print('C\n-e\n bolinha'\n",
+            "lines": "36"
+        },
+        {
+            "label": "2025-09-14_22-57-23",
+            "content": "@@ -658,14 +658,8 @@\n hico\n- Bento\n ');%0A\n",
+            "lines": "36"
+        },
+        {
+            "label": "2025-09-14_22-57-33",
+            "content": "chico = int(input());\ncebolinha = int(input());\ntotAnimais = int(input());\nlistaAnimais = [];\ncontador = 0;\ncontadorPatas = 0;\n\nwhile contador < totAnimais:\n  listaAnimais.append(input());\n  contador += 1;\n\nfor i in listaAnimais:\n  if i == 'c' or i == 'v':\n    contadorPatas += 4;\n  else:\n    contadorPatas += 2;\n\nprint(contadorPatas);\n\ndef conferirDiferen\u00e7a (valorA, valorB):\n  if valorA > valorB:\n    return valorA - valorB;\n  elif valorB > valorA:\n    return valorB - valorA;\n  else :\n    return 0\n  \ndifChico = conferirDiferen\u00e7a(chico, contadorPatas);\ndifCebolinha = conferirDiferen\u00e7a(cebolinha, contadorPatas);\n\nif (difChico < difCebolinha):\n  print('Chico Bento');\nelif difCebolinha < difChico:\n  print('Cebolinha');\nelse :\n  print('empate');",
+            "lines": "36"
+        }
+    ]
+}

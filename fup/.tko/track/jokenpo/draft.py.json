@@ -1,0 +1,29 @@
+{
+    "patches": [
+        {
+            "label": "2025-09-14_21-26-53",
+            "content": "@@ -38,33 +38,4 @@\n t();\n-%0Aprint(jogador_1, jogador_2);\n",
+            "lines": "2"
+        },
+        {
+            "label": "2025-09-14_21-27-36",
+            "content": "@@ -39,160 +39,32 @@\n ();%0A\n-%0Aif (jogador_1 == 'P' and jogador_2 == 'R') or %5C%0A   (jogador_1 == 'R' and jogador_2 == 'S') or %5C%0A   (jogador_1 == 'S' and jogador_2 == 'P'):%0A   print(jog1\n+print(jogador_1, jogador_2\n );\n",
+            "lines": "3"
+        },
+        {
+            "label": "2025-09-14_21-36-46",
+            "content": "@@ -189,12 +189,10 @@\n int(\n-'\n jog1\n-'\n );\n",
+            "lines": "7"
+        },
+        {
+            "label": "2025-09-14_21-37-00",
+            "content": "@@ -197,79 +197,4 @@\n 1');\n-%0A%0Aelif jogador_1 == jogador_2:%0A   print('empate');%0A%0Aelse:%0A   print('jog2');\n",
+            "lines": "7"
+        },
+        {
+            "label": "2025-09-14_21-37-51",
+            "content": "jogador_1 = input();\njogador_2 = input();\n\nif (jogador_1 == 'P' and jogador_2 == 'R') or \\\n   (jogador_1 == 'R' and jogador_2 == 'S') or \\\n   (jogador_1 == 'S' and jogador_2 == 'P'):\n   print('jog1');\n\nelif jogador_1 == jogador_2:\n   print('empate');\n\nelse:\n   print('jog2');",
+            "lines": "13"
+        }
+    ]
+}

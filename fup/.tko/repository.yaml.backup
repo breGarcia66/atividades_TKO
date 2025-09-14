@@ -1,0 +1,19 @@
+remote: https://github.com/qxcodefup/arcade/blob/master/Readme.md
+version: 0.0.1
+database: database
+expanded:
+- campanha-principal
+- missão-vetores-2
+tasks:
+  jokenpo: '{rate:100}'
+  ceu: '{rate:100}'
+  zigzag: '{rate:100}'
+  patas: '{rate:100}'
+flags:
+  quests: 2
+  tracks: 0
+  tasks: 0
+  graph: 1
+  xray: 0
+lang: py
+index: revolta

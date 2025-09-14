@@ -1,0 +1,24 @@
+{
+    "patches": [
+        {
+            "label": "2025-09-14_22-00-45",
+            "content": "@@ -84,21 +84,4 @@\n or);\n-%0A  contador += 1;\n",
+            "lines": "5"
+        },
+        {
+            "label": "2025-09-14_22-01-13",
+            "content": "@@ -66,173 +66,8 @@\n im:%0A\n-  if contador %25 3 == 0:%0A    print('zig');%0A  elif contador %25 5 == 0:%0A    print('zag');%0A  elif contador %25 3 == 0 and contador %25 5 == 0:%0A    print('zigzag');%0A  else:%0A  \n   pr\n",
+            "lines": "6"
+        },
+        {
+            "label": "2025-09-14_22-03-08",
+            "content": "@@ -86,30 +86,8 @@\n 3 ==\n- 0 and contador %25 5 !=\n  0:%0A\n@@ -130,30 +130,8 @@\n 5 ==\n- 0 and contador %25 3 !=\n  0:%0A\n",
+            "lines": "13"
+        },
+        {
+            "label": "2025-09-14_22-03-53",
+            "content": "contador = int(input());\nfim = int(input());\n\nwhile contador <= fim:\n  if contador % 3 == 0 and contador % 5 != 0:\n    print('zig');\n  elif contador % 5 == 0 and contador % 3 != 0:\n    print('zag');\n  elif contador % 3 == 0 and contador % 5 == 0:\n    print('zigzag');\n  else:\n    print(contador);\n  contador += 1;",
+            "lines": "13"
+        }
+    ]
+}

@@ -1,0 +1,44 @@
+{
+    "patches": [
+        {
+            "label": "2025-09-14_23-03-54",
+            "content": "@@ -103,24 +103,28 @@\n .append(\n+int(\n input())\n ;%0A  cont\n@@ -115,16 +115,17 @@\n input())\n+)\n ;%0A  cont\n",
+            "lines": "8"
+        },
+        {
+            "label": "2025-09-14_23-04-26",
+            "content": "@@ -72,9 +72,9 @@\n dor \n-%3C\n+%3E\n  exe\n@@ -103,28 +103,24 @@\n .append(\n-int(\n input())\n );%0A  con\n@@ -111,17 +111,16 @@\n input())\n-)\n ;%0A  cont\n",
+            "lines": "8"
+        },
+        {
+            "label": "2025-09-14_23-04-40",
+            "content": "@@ -140,268 +140,25 @@\n 1;%0A%0A\n-listaPares = listaExercito.filter(lambda i: i %25 2 == 0);%0AlistaImpares =  listaExercito.filter(lambda i: i %25 2 != 0);%0A%0AsomaPar = reduce(lambda acc, i: acc + i, listaPares, 0);%0AsomaImpar = reduce(lambda acc, i: acc + i, listaImpares, 0);%0A%0Aprint(somaImpar, somaPar);%0A\n+print(listaExercito);\n",
+            "lines": "8"
+        },
+        {
+            "label": "2025-09-14_23-13-11",
+            "content": "@@ -149,25 +149,34 @@\n Pares = list\n-(\n+aExercito.\n filter(lambd\n@@ -190,32 +190,16 @@\n %25 2 == 0\n-, listaExercito)\n );%0Alista\n@@ -213,17 +213,26 @@\n  =  list\n-(\n+aExercito.\n filter(l\n@@ -254,71 +254,12 @@\n != 0\n-, listaExercito));%0A%0Aprint(listaImpares);%0Aprint(listaPares);%0A%0A# \n+);%0A%0A\n soma\n@@ -311,18 +311,16 @@\n es, 0);%0A\n-# \n somaImpa\n@@ -377,10 +377,8 @@\n );%0A%0A\n-# \n prin\n",
+            "lines": "14"
+        },
+        {
+            "label": "2025-09-14_23-14-47",
+            "content": "@@ -268,16 +268,59 @@\n ito));%0A%0A\n+print(listaImpares);%0Aprint(listaPares);%0A%0A# \n somaPar \n@@ -368,16 +368,18 @@\n es, 0);%0A\n+# \n somaImpa\n@@ -428,24 +428,26 @@\n pares, 0);%0A%0A\n+# \n print(somaIm\n",
+            "lines": "17"
+        },
+        {
+            "label": "2025-09-14_23-15-53",
+            "content": "@@ -274,28 +274,55 @@\n %0A%0AsomaPar = \n-sum(\n+reduce(lambda acc, i: acc + i, \n listaPares);\n@@ -319,16 +319,19 @@\n staPares\n+, 0\n );%0AsomaI\n@@ -341,12 +341,39 @@\n r = \n-sum(\n+reduce(lambda acc, i: acc + i, \n list\n@@ -380,16 +380,19 @@\n aImpares\n+, 0\n );%0A%0Aprin\n",
+            "lines": "14"
+        },
+        {
+            "label": "2025-09-14_23-17-07",
+            "content": "@@ -331,58 +331,14 @@\n );%0A%0A\n-if somaPar %3E somaImpar:%0A  print('rebeldes');%0Aelif \n+print(\n soma\n@@ -346,18 +346,17 @@\n mpar\n- %3E\n+,\n  somaPar\n :%0A  \n@@ -355,51 +355,7 @@\n aPar\n-:%0A  print('soldados');%0Aelse:%0A  print('empate'\n );\n+%0A\n",
+            "lines": "14"
+        },
+        {
+            "label": "2025-09-14_23-18-15",
+            "content": "exercito =  int(input());\nlistaExercito = [];\ncontador = 0;\nwhile contador < exercito:\n  listaExercito.append(int(input()));\n  contador += 1;\n\nlistaPares = list(filter(lambda i: i % 2 == 0, listaExercito));\nlistaImpares =  list(filter(lambda i: i % 2 != 0, listaExercito));\n\nsomaPar = sum(listaPares);\nsomaImpar = sum(listaImpares);\n\nif somaPar > somaImpar:\n  print('rebeldes');\nelif somaImpar > somaPar:\n  print('soldados');\nelse:\n  print('empate');",
+            "lines": "19"
+        }
+    ]
+}
